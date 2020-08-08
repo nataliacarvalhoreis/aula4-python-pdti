@@ -6,5 +6,6 @@ numeros = []
 for i in range(10):
     numeros.append(float(input("Informe o {}º numero: ".format(i+1))))
 
-for itens in reversed(numeros):
-    print(itens)
+numeros.reverse()
+
+print(numeros)
